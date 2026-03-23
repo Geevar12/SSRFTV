@@ -63,23 +63,6 @@ This folder contains the implementation of a **word-level silent speech recognit
 
 ---
 
-## 🔄 GRID vs Custom Module
-
-This project supports two different approaches for Silent Speech Recognition:
-
-| Feature | GRID Dataset Model | Custom Module |
-|--------|------------------|--------------|
-| **Type of Recognition** | Sentence-level recognition | Word-level recognition |
-| **Dataset** | GRID dataset (standard benchmark) | Custom dataset (user-defined words) |
-| **Output** | Full sentences | Single predefined words |
-| **Model Architecture** | CNN + BiLSTM + CTC | CNN + BiLSTM + Softmax |
-| **Decoding Method** | CTC (Connectionist Temporal Classification) | Softmax classification |
-| **Flexibility** | Fixed sentence structure | Flexible word selection |
-| **Use Case** | Research / full speech reconstruction | Real-time applications / assistive tools |
-| **Complexity** | Higher (sequence decoding) | Lower (classification-based) |
-| **Training Difficulty** | More complex | Easier to train |
-
----
 
 ### 🧠 Key Difference
 
