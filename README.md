@@ -107,3 +107,11 @@ This folder contains the implementation of a **word-level silent speech recognit
 5. Run frontend
    ```bash
    npm run dev
+
+Link to Dataset
+https://drive.google.com/drive/folders/1PbqqlXbSEULilM3PCOOCn3wLuPdMm1Kz?usp=sharing
+
+Link to Models
+https://drive.google.com/drive/folders/1auBp1xlloS6Rxj8Iww8-DuQKB8Gs39Xr?usp=sharing
+
+
