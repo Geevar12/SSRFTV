@@ -107,3 +107,20 @@ This project supports two different approaches for Silent Speech Recognition:
    ```bash
    git clone https://github.com/Geevar12/SSR.git
    cd SSR
+
+2. Install frontend
+   ```bash
+   npm install
+
+3. Install backend
+   ```bash
+   pip install -r src/backend/requirements.txt
+
+4. Run backend
+   ```bash
+   cd src/backend
+   python app.py
+
+5. Run frontend
+   ```bash
+   npm run dev
